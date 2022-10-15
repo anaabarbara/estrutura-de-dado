@@ -1,0 +1,18 @@
+/* 76. Leia um vetor de 10 posições e atribua valor 0 para todos os elementos que possuírem valores negativos. */
+
+#include <stdio.h>
+int main(){
+  int array[10];
+      for (int i=0;i<10;i++){
+          printf("ADD[%d]:: ",i+1); scanf("%d",&array[i]);
+      }
+      for (int a=0;a<10;a++){
+          if (array[a]<0){
+              array[0]=0;
+          }
+      }
+  for (int q=0;q<10;q++){
+      printf("%d\n",array[q]);
+  }
+  return 0;
+}
